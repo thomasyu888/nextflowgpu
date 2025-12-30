@@ -1,7 +1,7 @@
 
 process RUN_MY_GPU_TOOL {
     label 'process_gpu' // Optional: for grouping GPU processes
-    container 'nvidia/cuda:11.4.0-base-ubuntu20.04' // Use a CUDA-enabled container
+    container 'nvidia/cuda:13.1.0-base-ubuntu24.04' // Use a CUDA-enabled container
     accelerator 1 // Requests 1 GPU
 
     output:
